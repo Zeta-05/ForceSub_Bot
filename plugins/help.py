@@ -17,7 +17,7 @@ async def _start(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Anime_Chat_Group_Community).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,11 +42,11 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/Kayto_Official"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/Anime_Chat_Group_Community")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/Anime_Chat_Group_Community")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/Kayto_Official"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/Anime_Chat_Group_Community")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/Anime_Chat_Group_Community")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ async def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Souce Code", url="https://github.com/Jigarvarma2005/ForceSub_Bot")
+                    InlineKeyboardButton("Souce Code", url="https://t.me/Kayto_Official")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/Kayto_Official"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/Anime_Chat_Group_Community")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/Anime_Chat_Group_Community")
                 ]
             ]
         ),
